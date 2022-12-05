@@ -57,3 +57,6 @@ b = c
 print(a, b)
 
 # ctrl K T = ouvrir la gestion des thèmes 
+
+# cmd touch pour créer un fichier depuis le terminal 
+# cmd mkdir pour créer un dossier depuis le terminal 
