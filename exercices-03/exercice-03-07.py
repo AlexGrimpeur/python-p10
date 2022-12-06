@@ -10,5 +10,8 @@
 price = 314.00
 tax_rate = 20
 
+
+print()
+
 # réponse 3.7
 

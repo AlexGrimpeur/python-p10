@@ -7,5 +7,12 @@
 # - la valeur nulle `None` à une variable nommée `license_agreement`
 # Affichez ces variables
 
+answer = 42
+golden_ratio = 1.61
+fullname = "salut moreau alexandre"
+love_python = True
+license_agreement = None
+
+print(answer, golden_ratio , fullname, love_python, license_agreement)
 # réponse 2.1
 

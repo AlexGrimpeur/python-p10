@@ -11,5 +11,11 @@ candies = 15
 chocolates = 17
 friends = 3
 
+candies_rest = candies % friends 
+print(candies_rest)
+
+chocolates_rest = chocolates % friends 
+print(chocolates_rest)
+
 # réponse 3.2
 

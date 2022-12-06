@@ -6,6 +6,9 @@
 # Calculez l'âge d'Alice en utilisant les variables `birthyear` et `year` puis stockez le résultat dans une variable nommée `age` et affichez ce résultat.
 
 birthyear = 1988
+year = 2022
+
+alice_yo = year - birthyear 
+print (alice_yo_str)
 
 # réponse 3.1
-

@@ -11,5 +11,12 @@ candies = 15
 chocolates = 17
 friends = 3
 
+candies_per_person = candies/friends
+print(candies_per_person)
+
+chocolates_rest = chocolates%friends
+chocolates_per_personne = (chocolates - chocolates_rest)/friends
+print(chocolates_per_personne)
+print("Et il reste " + str(chocolates_rest)+ " chocolats")
 # réponse 3.3
 

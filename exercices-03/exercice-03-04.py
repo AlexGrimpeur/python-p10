@@ -3,5 +3,8 @@
 # Faites ce calcul en une seule étape, sans utiliser de variable intermédiaire.
 # Affectez le résultat à la variable `average` et affichez le résultat.
 
+average = (1 + 2 + 3 + 5 + 8 + 13 + 21)/7
+print(int(average)) 
+
 # réponse 3.4
 

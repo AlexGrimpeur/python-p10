@@ -3,5 +3,9 @@
 # Convertissez la valeur en float et stockez le résultat dans une variable nommée `number1_float`.
 # Affichez le résultat.
 
+number1 = 2 
+number1_float = float(number1)
+print(number1_float)
+
 # réponse 2.2
 

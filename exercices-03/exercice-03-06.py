@@ -10,7 +10,12 @@
 # Convertissez les mètres en kilo mètres puis stockez le résultat dans la variable `km`.
 # Affichez un résultat arrondi de la distance en kilo mètre avec la fonction `round()`.
 
-miles = 3
+miles = 3 
+meters = miles * 1609.344
+km = meters/1000
+print(round(meters,0))
+print(round(km,1))
+
 
 # réponse 3.6
 

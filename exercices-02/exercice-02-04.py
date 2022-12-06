@@ -5,5 +5,11 @@
 # Convertissez la variable `number3_rounded` en int et stockez le résultat dans une variable nommée `number3_int`.
 # Affichez le résultat.
 
+number3 = 2.7182
+number3_rounded = round(number3, 2)
+print(number3_rounded)
+number3_int = int(number3_rounded)
+print(number3_int)
+
 # réponse 2.4
 

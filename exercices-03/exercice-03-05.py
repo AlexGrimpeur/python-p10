@@ -11,5 +11,19 @@
 # Calculez la moyenne des dépenses quotidiennes en utilisant les variables `total` et `days` et stockez le résultat dans la variable `average`.
 # Affichez le nombre de jours, le montant total et la moyenne des dépenses.
 
+day1 = 26.82
+day2 = 42.00
+day3 = 31.41
+day4 = 63.70
+day5 = 32.00
+
+days = bool(day1) + bool(day2) + bool(day3) + bool(day4) + bool(day5)
+total = day1 + day2 + day3 + day4 + day5
+average = total/days
+
+print(days)
+print(total)
+print(average)
+
 # réponse 3.5
 

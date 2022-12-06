@@ -62,14 +62,19 @@ print(a, b)
 
 # cmd touch pour créer un fichier depuis le terminal 
 # cmd mkdir pour créer un dossier depuis le terminal 
-
+# alt + click = multi curseur, pour faire un changement a plusieurs endroit
 
 # le Transtypage : passer une variable d'un type a un autre (ex : un int en str)
-test = 123
-test = str(test)
-print(type(test))
+modif_multi_curseur = 123
+modif_multi_curseur = str(modif_multi_curseur)
+print(type(modif_multi_curseur))
 
 foo = 2.5 
 a = int(foo)
 b = foo - a 
 print(a, b)
+
+# liste : name + [donnée1 , donnée2 , donnée3]
+qualité_grimpe = ["mental", "physique", "technique", "tactique"]
+oui = "technique" in qualité_grimpe
+print(oui)
