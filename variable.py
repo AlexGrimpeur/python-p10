@@ -40,13 +40,15 @@ my_none = None
 print(my_none)
 print(type(my_none))
 
-# permutation de la valeur des variables 
+# permutation de la valeur des variables methode 1
 
-"""a = 123 
+a = 123 
 b = 42
 a, b = b, a 
 
-print(a, b)"""
+print(a, b)
+
+# permutation de la valeur des variables methode 2
 
 a = 10
 b = 2 
@@ -60,3 +62,14 @@ print(a, b)
 
 # cmd touch pour créer un fichier depuis le terminal 
 # cmd mkdir pour créer un dossier depuis le terminal 
+
+
+# le Transtypage : passer une variable d'un type a un autre (ex : un int en str)
+test = 123
+test = str(test)
+print(type(test))
+
+foo = 2.5 
+a = int(foo)
+b = foo - a 
+print(a, b)
