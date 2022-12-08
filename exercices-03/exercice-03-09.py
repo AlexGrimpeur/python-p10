@@ -13,5 +13,16 @@
 price_alpha = 2.00
 price_beta = 1.70
 
+weight_alpha = 120 * 10 
+weight_beta = 100 * 10 
+
+price_per_kilo_alpha = weight_alpha * price_alpha
+price_per_kilo_beta = weight_beta * price_beta
+
+charly_is_right = price_per_kilo_alpha <= price_per_kilo_beta
+
+print(bool(charly_is_right))
+# if result is false, charly is wrong, because the price of alpha is taller than beta price 
+
 # réponse 3.9
 
