@@ -11,3 +11,7 @@ print(number)
 
 # réponse 4.2
 
+if number % 2 == 0 : 
+    print("le nombre est pair")
+elif number % 2 == 1 :
+    print("le nombre est impair")

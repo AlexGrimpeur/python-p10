@@ -11,3 +11,7 @@ print(number)
 
 # réponse 4.5
 
+if 0 <= number <= 49 :
+    print("le nombre est compris entre 0 et 49 inclus")
+elif number > 49 :
+    print("le nombre n'est pas compris entre 49 et 99 inclus")
